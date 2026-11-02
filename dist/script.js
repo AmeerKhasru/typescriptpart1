@@ -29,3 +29,27 @@ const sumAllNumbers = (...numbers) => {
 };
 console.log(sumAllNumbers(1, 2, 3, 4, 5));
 console.log(sumAllNumbers(10, 20, 30));
+const person1 = {
+    firstName: "Amir",
+    lastName: "Khasru",
+    age: 25
+};
+const person2 = {
+    firstName: "John",
+    lastName: "Doe",
+    age: 30
+};
+const animal1 = {
+    name: "Buddy",
+    species: "Dog",
+    age: 5
+};
+const animal2 = {
+    name: "Whiskers",
+    species: "Cat",
+    age: 3
+};
+console.log(person1);
+console.log(person2);
+console.log(animal1);
+console.log(animal2);
