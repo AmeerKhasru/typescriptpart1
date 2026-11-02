@@ -24,9 +24,19 @@ console.log(myArray);
 console.log(myTuple);
 console.log(addTwoNumbers(5, 10));
 console.log(ctgLongLat);
+
 console.log(conCatName("Amir", "Khasru"));
 
 const greetings = (fullName: string, greeting = "Hello") => {
     console.log(greeting +", "+ fullName);
 }
 greetings("Amir Khasru");
+
+//Rest Parameter
+
+const sumAllNumbers = (...numbers: number[]): number => {
+    return numbers.reduce((acc, curr) => acc + curr, 0);
+}
+
+console.log(sumAllNumbers(1, 2, 3, 4, 5));
+console.log(sumAllNumbers(10, 20, 30));
